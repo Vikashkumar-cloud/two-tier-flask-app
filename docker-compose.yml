@@ -45,3 +45,6 @@ services:
 
 networks:
   twotier:
+volumes:
+  mysql-data:
+  
