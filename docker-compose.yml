@@ -23,7 +23,7 @@ services:
       start_period: 60s
 
   flask-app:
-    image: vikashkumar1202/flask-app:latest
+    image: ${vikashkumar1202/flask-app}:${BUILD_NUMBER}
     ports:
       - "5000:5000"
     environment:
